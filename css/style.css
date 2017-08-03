@@ -140,7 +140,7 @@ body {
 #sidebar ul.navigation li a small {
 	font-size: 14px;
 }
-#sidebar ul li.facebook a, #sidebar ul li.twitter a, #sidebar ul li.googleplus a {
+#sidebar ul li.facebook a, #sidebar ul li.twitter a, #sidebar ul li.linkedin a {
 	background: url(../images/icons.png) no-repeat;
 	display: block;
 	height: 53px;
@@ -149,6 +149,14 @@ body {
 	text-indent: -99999px;
 	text-align: left;
 	width: 53px;
+}
+
+.icons {
+	color:  #b1b0b0;
+}
+
+.icons:hover {
+	color: white;
 }
 
 #sidebar ul li.facebook a {
@@ -163,10 +171,10 @@ body {
 #sidebar ul li.twitter a:hover {
 	background-position: -62px -57px;
 }
-#sidebar ul li.googleplus a {
+#sidebar ul li.linkedin a {
 	background-position: 0 -175px;
 }
-#sidebar ul li.googleplus a:hover {
+#sidebar ul li.linkedin a:hover {
 	background-position: -61px -175px;
 }
 #sidebar .copyright {
